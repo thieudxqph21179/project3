@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+    <!-- Chi tiết sản phẩm -->
+    <div class="products-details">
+        <div class="wrapper">
+            <div class="content-details">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-sm-12">
+                        <div class="details-content-right">
+                            <!-- Ảnh cha -->
+                            <div class="img-father">
+                                <img src="./img/sp1.png" alt="" id="img-father">
+                            </div>
+                            <!-- Ảnh con -->
+                            <div class="img-child">
+                                <div class="img">
+                                    <img src="./img/sp2.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="./img/sp3.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="./img/sp4.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <img src="./img/sp5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chi tiết -->
+                    <div class="col-6 col-md-6 col-sm-12">
+                        <div class="details-content-left">
+                            <div class="title-details">
+                                <p>Stuffed Blue Shark</p>
+                            </div>
+                            <div class="content-products">
+                                <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                            </div>
+                            <div class="view">
+                                <p>View <span>20</span></p>
+                            </div>
+                            <div class="price-product">
+                                <p><del>$ 500</del> <span>$ 300</span></p>
+                            </div>
+                            <div class="quantity">
+                                <form action="">
+                                    <input type="text" value="1">
+                                    <div class="border-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </form>
+                                <div class="wislist">
+                                    <a href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Title bình luận -->
+    <div class="bl">
+        <div class="wrapper">
+            <p>Bình luận sản phẩm</p>
+        </div>
+    </div>
+
+    <!-- Bình luận -->
+    <div class="comment">
+        <div class="wrapper">
+            <div class="comment-content">
+                <div class="row">
+                    <!-- Show bình luận -->
+                    <div class="col-12">
+                        <div class="row-comment">
+                            <div class="comment-left">
+                                <img src="./img/nam.jpg" alt="">
+                            </div>
+                            <div class="comment-right">
+                                <div class="name-user">
+                                    <p>Vú Phương Nam</p>
+                                </div>
+                                <div class="day-time">
+                                    <p>2021-1-1</p>
+                                    <p>16:00</p>
+                                </div>
+                                <div class="comment-detaills">
+                                    <p>Nam múp quá !</p>
+                                </div>
+                                <div class="delete-reply">
+                                    <div class="delete">
+                                        <a href="">Xóa</a>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="#">Trả lời</a>
+                                        <form action="" method="">
+                                            <div class="img-comment">
+                                                <img src="./img/nam.jpg" alt="">
+                                            </div>
+                                            <input type="text" placeholder="Viết bình luận">
+                                            <input type="submit" value="Gửi" name="submit">
+                                            <p>Hủy</p>
+                                        </form>
+                                        <div class="close-comment"></div>
+                                    </div>
+                                </div>
+                                <!-- Show-reply -->
+                                <div class="row-comment">
+                                    <div class="comment-left">
+                                        <img src="./img/nam.jpg" alt="">
+                                    </div>
+                                    <div class="comment-right">
+                                        <div class="name-user">
+                                            <p>Vú Phương Nam</p>
+                                        </div>
+                                        <div class="day-time">
+                                            <p>2021-1-1</p>
+                                            <p>16:00</p>
+                                        </div>
+                                        <div class="comment-detaills">
+                                            <p>Nam múp quá !</p>
+                                        </div>
+                                        <div class="delete-reply">
+                                            <div class="delete">
+                                                <a href="">Xóa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Form bình luận -->
+            <div class="form-comment">
+                <div class="avatar">
+                    <img src="./img/nam.jpg" alt="">
+                </div>
+                <form action="" method="">
+                    <input type="text" placeholder="Thêm bình luận...">
+                    <input type="submit" value="Gửi bình luận">
+                </form>
+            </div>
+        </div>
+
+        <!-- Title sản phẩm liên quan -->
+        <div class="relation">
+            <div class="wrapper">
+                <p>Sản phẩm liên quan</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm liêm quan -->
+        <div class="relation-products">
+            <div class="wrapper">
+                <div class="content-relation-products">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="products">
+                                <div class="sale-details">
+                                    <p>25%</p>
+                                </div>
+                                <div class="products-img">
+                                    <img src="./img/sp1.png" alt="">
+                                </div>
+                                <div class="add-to-cart-details">
+                                    <button><a href=""><i class="far fa-newspaper"></i></a></button>
+                                    <button><a href=""><i class="fas fa-heart"></i></a></button>
+                                </div>
+                            </div>
+                            <div class="name-price">
+                                <p>Stuffed Blue Shark</p>
+                                <p>$39.99 <span>$29.99</span></p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="products">
+                                <div class="sale-details">
+                                    <p>25%</p>
+                                </div>
+                                <div class="products-img">
+                                    <img src="./img/sp2.png" alt="">
+                                </div>
+                                <div class="add-to-cart-details">
+                                    <button><a href=""><i class="far fa-newspaper"></i></a></button>
+                                    <button><a href=""><i class="fas fa-heart"></i></a></button>
+                                </div>
+                            </div>
+                            <div class="name-price">
+                                <p>Stuffed Blue Shark</p>
+                                <p>$39.99 <span>$29.99</span></p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="products">
+                                <div class="sale-details">
+                                    <p>25%</p>
+                                </div>
+                                <div class="products-img">
+                                    <img src="./img/sp3.png" alt="">
+                                </div>
+                                <div class="add-to-cart-details">
+                                    <button><a href=""><i class="far fa-newspaper"></i></a></button>
+                                    <button><a href=""><i class="fas fa-heart"></i></a></button>
+                                </div>
+                            </div>
+                            <div class="name-price">
+                                <p>Stuffed Blue Shark</p>
+                                <p>$39.99 <span>$29.99</span></p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="products">
+                                <div class="sale-details">
+                                    <p>25%</p>
+                                </div>
+                                <div class="products-img">
+                                    <img src="./img/sp4.png" alt="">
+                                </div>
+                                <div class="add-to-cart-details">
+                                    <button><a href=""><i class="far fa-newspaper"></i></a></button>
+                                    <button><a href=""><i class="fas fa-heart"></i></a></button>
+                                </div>
+                            </div>
+                            <div class="name-price">
+                                <p>Stuffed Blue Shark</p>
+                                <p>$39.99 <span>$29.99</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+</html>

@@ -1,0 +1,334 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.row-revere {
+    flex-direction: row-reverse;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* medium screen */
+
+@media only screen and (max-width: 970px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    /* INDEX */
+    .content-slider {
+        width: 60%;
+    }
+    .author {
+        width: 100%;
+    }
+    .banner-none {
+        display: none;
+    }
+    .footer {
+        height: 1200px;
+    }
+    /* POST */
+    .author-post-left {
+        width: 220px;
+    }
+    /* Quản lý tài khoản, đổi mật khẩu*/
+    .account-left {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .hoso {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        text-align: center;
+    }
+    .hoso-left {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    }
+    .hoso-left img {
+        width: 60%;
+        height: 100%;
+    }
+    .account-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .account-right form input[type="text"] {
+        width: 240px;
+    }
+    .account-right-content-img {
+        margin-left: 35px;
+        margin-top: 90px;
+    }
+    .account-right-content-img img {
+        width: 60px;
+        height: 60px;
+    }
+    .choose-photo {
+        width: 97%;
+        margin-left: 5%;
+    }
+}
+
+
+/* small screen */
+
+@media only screen and (max-width: 750px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    /* Index */
+    .hero {
+        height: 600px;
+    }
+    .content-slider {
+        width: 60%;
+    }
+    .banner-none {
+        display: none;
+    }
+    .author {
+        width: 100%;
+    }
+    .footer {
+        height: 1600px;
+    }
+    .icon-footer {
+        margin-top: 40px;
+    }
+    .content-footer {
+        margin-top: 40px;
+    }
+    .logo-footer {
+        margin: 90px 0px -30px 0px;
+    }
+    /* Giới thiệu */
+    .intro-content-top {
+        margin-bottom: 250px;
+    }
+    .intro-right img {
+        margin-top: 0px;
+        height: 400px;
+    }
+    .intro-content-between {
+        height: 900px;
+    }
+    .intro-between-right {
+        width: 95.5%;
+        bottom: -260px;
+        left: 15px;
+    }
+    /* Chi tiết sản phẩm */
+    .products-details {
+        margin-bottom: 500px;
+    }
+    .details-content-right {
+        margin-bottom: 160px;
+    }
+    .reply form input[type="text"] {
+        width: 65%;
+    }
+    .reply form input[type="submit"] {
+        right: 108px;
+    }
+    .reply form p {
+        right: 63px;
+    }
+    /* Sản phẩm */
+    .all-products {
+        justify-content: center;
+        position: relative;
+    }
+    .all-products-left {
+        display: none;
+    }
+    .check-product {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        left: 0px;
+    }
+    /* Quản lý tài khoản, đổi mật khẩu*/
+    .account-left {
+        width: 55%;
+        margin: 0 auto;
+    }
+    .hoso {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        text-align: center;
+    }
+    .hoso-left {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    }
+    .hoso-left img {
+        width: 60%;
+        height: 100%;
+    }
+    .account-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .account-right form input[type="text"] {
+        width: 240px;
+    }
+    .account-right-content-img {
+        margin-left: 35px;
+        margin-top: 90px;
+    }
+    .account-right-content-img img {
+        width: 60px;
+        height: 60px;
+    }
+    .choose-photo {
+        width: 97%;
+        margin-left: 5%;
+    }
+    /* Đơn hàng */
+    .tabs {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .tab-item {
+        padding: 10px 10px;
+    }
+    .tab-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .xem-shop {
+        margin-bottom: 10px;
+    }
+    .tab-product-content {
+        flex-direction: column;
+    }
+    .product-content-right {
+        height: 50px;
+        line-height: 50px;
+    }
+}

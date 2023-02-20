@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav-top -->
+    <div class="nav-top">
+        <div class="wrapper">
+            <div class="nav-top-content">
+                <div class="nav-top-left">
+                    <div class="content-left">
+                        <i class="fas fa-map-marker-alt"></i> Trịnh Văn Bô - Nam Từ Liêm - Hà Nội
+                    </div>
+                    <div class="content-left">
+                        <i class="fas fa-phone-alt"></i> 0352460316
+                    </div>
+                    <div class="content-left">
+                        <i class="fas fa-clock"></i> Mon - Sat: 8:00 - 20:00
+                    </div>
+                </div>
+                <!-- Chưa đăng nhập -->
+                <div class="nav-top-login">
+                    <div class="content-login">
+                        <a href="">Đăng nhập</a>
+                    </div>|
+                    <div class="content-login">
+                        <a href="">Đăng ký</a>
+                    </div>
+                </div>
+                <!-- Đã đăng nhập admin -->
+                <!-- <div class="nav-top-right">
+                    <div class="content-right">
+                        <a href="">Trang quản trị</a>
+                    </div>
+                    <span>|</span>
+                    <div class="content-right">
+                        <img src="./img/nam.jpg">
+                    </div>
+                    <div class="dropdown ">
+                        <button class="dropbtn ">Tài khoản của tôi  <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-content ">
+                            <a href="# ">Link 1</a>
+                            <a href="# ">Link 2</a>
+                            <a href="# ">Link 3</a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Đã đăng nhập user -->
+                <!-- <div class="nav-top-right">
+                    <div class="content-right"><i class='bx bxs-user-circle icon_user'></i></div>
+                    <div class="dropdown ">
+                        <button class="dropbtn "> Tài khoản của tôi <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-content ">
+                            <a href="# ">Tài khoản</a>
+                            <a href="logout.php">Đăng xuất</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="wrapper">
+            <div class="logo-responsive">
+                <img src="./img/logo-footer.png" alt="">
+            </div>
+
+            <!-- Menu left-->
+            <div class="menu-left">
+                <div class="logo">
+                    <img src="./img/logo_duan1.png" alt="">
+                </div>
+                <ul class="menu-ul">
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="giothieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="">Shop <i class="fas fa-chevron-down"></i></a>
+
+                        <!-- Menu-mega -->
+                        <div class="menu-mega">
+                            <div class="row">
+                                <div class="mega-content">
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Robot điều khiển từ xa</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Robot điều khiển từ xa</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mega-content">
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="mega-row">
+                                            <h4>Products</h4>
+                                            <ul class="mega-ul">
+                                                <li>
+                                                    <a href="">Products</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Robot điều khiển từ xa</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="">Hướng dẫn khách hàng</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Bars -->
+            <div class="bars">
+                <!-- Bars border -->
+                <div class="bars-border">
+                    <!-- Check-bars -->
+                    <input type="checkbox" hidden class="check_bars" name="bars" id="bars">
+                    <label for="bars"><i class="fas fa-bars"></i></label>
+
+                    <!-- Menu responsive -->
+                    <div class="responsive-menu">
+                        <ul class="menu-ul-responsive">
+                            <li>
+                                <a href="">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="">Sản phẩm <i class="fas fa-chevron-down"></i></a>
+                                <!-- Menu-mega -->
+                                <div class="content-responsive">
+                                    <h4>Products</h4>
+                                    <ul class="mega-ul-responsive">
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content-responsive">
+                                    <h4>Products</h4>
+                                    <ul class="mega-ul-responsive">
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content-responsive">
+                                    <h4>Products</h4>
+                                    <ul class="mega-ul-responsive">
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Tin tức</a>
+                            </li>
+                            <li>
+                                <a href="">Hướng dẫn mua hàng</a>
+                            </li>
+                            <label for="bars"><i class="fas fa-times-circle"></i></label>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu right -->
+            <div class="menu-right">
+                <div class="menu-right-content">
+                    <!-- Số lượng yêu thích -->
+                    <div class="quantity-heart">
+                        <p>0</p>
+                    </div>
+                    <!-- Số lượng giỏ hàng -->
+                    <div class="quantity-cart">
+                        <p>0</p>
+                    </div>
+
+                    <!-- Icon menu -->
+                    <div class="icon">
+                        <!-- Yêu thích -->
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <!-- Giỏ hàng -->
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+
+                        <input type="checkbox" name="" id="search" hidden class="input_search">
+                        <label for="search"><i class="fas fa-search"></i></label>
+                        <!-- Form tìm kiếm -->
+                        <div class="search">
+                            <div class="close">
+                                <label for="search"><i class="fas fa-times-circle"></i></label>
+                            </div>
+                            <form action="" method="POST">
+                                <input type="text" placeholder="Tìm kiếm sản phẩm"><br>
+                                <input type="submit" value="Tìm kiếm" name="submit">
+                            </form>
+                            <div class="search-product">
+                                <h4>Sản phẩm gợi ý
+                                </h4>
+                                <div class="all-product-search">
+                                    <div class="search-product-img">
+                                        <img src="./img/sp1.png" alt="">
+                                    </div>
+                                    <div class="search-product-content">
+                                        <p><a href="">Gấu bông cute phô mai que</a></p>
+                                        <p>100.000 Đ</p>
+                                        <p>
+                                            <a href="">Xem chi tiết sản phẩm</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="all-product-search">
+                                    <div class="search-product-img">
+                                        <img src="./img/sp1.png" alt="">
+                                    </div>
+                                    <div class="search-product-content">
+                                        <p><a href="">Gấu bông cute phô mai que</a></p>
+                                        <p>100.000 Đ</p>
+                                        <p>
+                                            <a href="">Xem chi tiết sản phẩm</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="all-product-search">
+                                    <div class="search-product-img">
+                                        <img src="./img/sp1.png" alt="">
+                                    </div>
+                                    <div class="search-product-content">
+                                        <p><a href="">Gấu bông cute phô mai que</a></p>
+                                        <p>100.000 Đ</p>
+                                        <p>
+                                            <a href="">Xem chi tiết sản phẩm</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="all-product-search">
+                                    <div class="search-product-img">
+                                        <img src="./img/sp1.png" alt="">
+                                    </div>
+                                    <div class="search-product-content">
+                                        <p><a href="">Gấu bông cute phô mai que</a></p>
+                                        <p>100.000 Đ</p>
+                                        <p>
+                                            <a href="">Xem chi tiết sản phẩm</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="all-product-search">
+                                    <div class="search-product-img">
+                                        <img src="./img/sp1.png" alt="">
+                                    </div>
+                                    <div class="search-product-content">
+                                        <p><a href="">Gấu bông cute phô mai que</a></p>
+                                        <p>100.000 Đ</p>
+                                        <p>
+                                            <a href="">Xem chi tiết sản phẩm</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="hero ">
+        <div class="slider">
+            <!-- slide item -->
+            <div class="slide active">
+                <div class="info">
+                    <div class="info-content">
+                        <div class="content-slider">
+                            <a href="">
+                                <h2 class="top-down trans-delay-0-2">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi in aut libero! Accusantium hic earum facilis ipsa quos odit non!
+                                </h2>
+                            </a>
+                            <p class="top-down trans-delay-0-4">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <div class="top-down trans-delay-0-6 btn-products" style="margin-top: 25px;">
+                                <div class="btn-products-child">
+                                    <a href="">Mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-slider">
+                        <a href="">
+                            <img src="./img/banner-footer.jpg" alt="" height="300px">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide active">
+                <div class="info">
+                    <div class="info-content">
+                        <div class="content-slider">
+                            <a href="">
+                                <h2 class="top-down trans-delay-0-2">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi in aut libero! Accusantium hic earum facilis ipsa quos odit non!
+                                </h2>
+                            </a>
+                            <p class="top-down trans-delay-0-4">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <div class="top-down trans-delay-0-6 btn-products" style="margin-top: 25px;">
+                                <div class="btn-products-child">
+                                    <a href="">Mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-slider">
+                        <a href="">
+                            <img src="./img/banner.png" alt="" height="300px">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end slide item -->
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+
+
+    <!-- Box sản phẩm -->
+    <div class="box-sp">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-4 col-md-4 col-sm-12">
+                    <div class="box red">
+                        <div class="title">
+                            <p>TOP</p>
+                            <p>Các sản phẩm</p>
+                            <p>đặc biệt</p>
+                        </div>
+                        <div class="img">
+                            <img src="./img/sp1.png" alt="">
+                        </div>
+                        <a href="">
+                            <div class="box-content"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-4 col-sm-12">
+                    <div class="box blue">
+                        <div class="title">
+                            <p>TOP</p>
+                            <p>Sản phẩm bán</p>
+                            <p>chạy</p>
+                        </div>
+                        <div class="img">
+                            <img src="./img/sp2.png" alt="">
+                        </div>
+                        <a href="">
+                            <div class="box-content"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-sm-12">
+                    <div class="box green">
+                        <div class="title">
+                            <p>TOP</p>
+                            <p>Sản phẩm nhiều</p>
+                            <p>lượt xem nhất</p>
+                        </div>
+                        <div class="img">
+                            <img src="./img/sp3.png" alt="">
+                        </div>
+                        <a href="">
+                            <div class="box-content"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Title-top -->
+    <div class="title-products">
+        <div class="wrapper">
+            <div class="content-title-products">
+                <p>Bạn Sẽ <i class="fas fa-heart"></i> Nó</p>
+                <p>Chúng tôi đã chọn một vài sản phẩm mà chúng tôi khá chắc chắn rằng bạn sẽ thích chúng.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp4.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp5.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp6.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp7.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp8.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp9.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp10.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product">
+                        <div class="sale">
+                            -25%
+                        </div>
+                        <img src="./img/sp11.png" alt="">
+                        <div class="add-to-cart">
+                            <button><a href="chitietsp.html"><i class="far fa-newspaper"></i></a></button>
+                            <button><a href=""><i class="fas fa-heart"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <p>
+                            <a href="chitietsp.html">Stuffed Blue Shark</a>
+                        </p>
+                        <p><del>$39.99</del> <span>$29.99</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All-products -->
+    <div class="all-products">
+        <div class="btn-products">
+            <div class="btn-products-child">
+                <a href="">Tất cả sản phẩm</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner-bottom -->
+    <div class="banner-bottom">
+        <div class="row">
+            <div class="col-6 col-md-12 col-sm-12">
+                <div class="banner-bottom-left">
+                    <p class="title-bottom">Ưu Đãi Trong Ngày</p>
+                    <p class="title-bottom"><span>TỐI ƯU GIẢM GIÁ 35% OFF</span> TRÊN TẤT CẢ SẢN PHẨM</p>
+                    <div class="row-time">
+                        <div class="time">
+                            <div class="time-img">
+                                <img src="./img/shape5.webp" alt="">
+                            </div>
+                            <p class="number" id="days">6</p>
+                            <p class="day">NGÀY</p>
+                        </div>
+                        <div class="time ">
+                            <div class="time-img ">
+                                <img src="./img/shape5.webp " alt=" ">
+                            </div>
+                            <p class="number" id="hours">6</p>
+                            <p class="day">GIỜ</p>
+                        </div>
+                        <div class="time ">
+                            <div class="time-img ">
+                                <img src="./img/shape5.webp " alt=" ">
+                            </div>
+                            <p class="number" id="minutes">15</p>
+                            <p class="day">PHÚT</p>
+                        </div>
+                        <div class="time ">
+                            <div class="time-img ">
+                                <img src="./img/shape5.webp " alt=" ">
+                            </div>
+                            <p class="number" id="seconds">30</p>
+                            <p class="day">GIÂY</p>
+                        </div>
+                    </div>
+                    <div class="shop-now">
+                        <div class="shop-now-border">
+                            <a href="">MUA NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 banner-none ">
+                <div class="banner-bottom-right ">
+                    <img src="./img/3.png " alt=" ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Title bottom -->
+    <div class="title-products">
+        <div class="wrapper">
+            <div class="content-title-products">
+                <p>ĐẾN VỚI CHÚNG TÔI</p>
+                <p>Chúng tôi tôn vinh tuổi thơ bằng cách hỗ<br> trợ trẻ sơ sinh, trẻ em và gia đình với những thiết kế chu đáo và chất liệu chất lượng.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- POST -->
+    <div class="box-sp">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="box2">
+                        <div class="img">
+                            <img src="./img/box-bottom1.jpg">
+                        </div>
+                        <div class="box-content2"></div>
+                    </div>
+                    <div class="content-post">
+                        <a href="">Tại sao trẻ sơ sinh tháng hai đặc biệt hơn</a>
+                    </div>
+                    <div class="author">
+                        <img src="./img/author.png" alt="">
+                        <a href="">Vũ Nam</a>
+                        <i class="fas fa-clock"></i>
+                        <a href="">Tháng 6, 2021</a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="box2">
+                        <div class="img">
+                            <img src="./img/box-bottom2.jpg">
+                        </div>
+                        <div class="box-content2"></div>
+                    </div>
+                    <div class="content-post">
+                        <a href="">Tại sao trẻ sơ sinh tháng hai đặc biệt hơn</a>
+                    </div>
+                    <div class="author">
+                        <img src="./img/author.png" alt="">
+                        <a href="">Vũ Nam</a>
+                        <i class="fas fa-clock"></i>
+                        <a href="">Tháng 6, 2021</a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="box2">
+                        <div class="img">
+                            <img src="./img/box-bottom3.jpg">
+                        </div>
+                        <div class="box-content2"></div>
+                    </div>
+                    <div class="content-post">
+                        <a href="">Tại sao trẻ sơ sinh tháng hai đặc biệt hơn</a>
+                    </div>
+                    <div class="author">
+                        <img src="./img/author.png" alt="">
+                        <a href="">Vũ Nam</a>
+                        <i class="fas fa-clock"></i>
+                        <a href="">Tháng 6, 2021</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="wrapper">
+            <div class="row">
+                <div class="logo-footer">
+                    <img src="./img/logo-footer.png" alt="">
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="row">
+                    <div class="col-3 col-md-6 col-sm-12">
+                        <div class="content-footer">
+                            <h4>Thông Tin</h4>
+                            <p>Về chúng tôi</p>
+                            <p>Liên lạc</p>
+                            <p>Câu hỏi thường gặp</p>
+                            <p>Cửa hàng BabyStreet</p>
+                            <p>Sự kiện</p>
+                            <div class="icon-footer">
+                                <div class="icon-border"><a href=""><i class="fab fa-facebook"></i></a></div>
+                                <div class="icon-border"><a href=""><i class="fab fa-twitter"></i></a></div>
+                                <div class="icon-border"><a href=""><i class="fab fa-youtube"></i></a></div>
+                                <div class="icon-border"><a href=""><i class="fab fa-instagram-square"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12">
+                        <div class="content-footer">
+                            <h4>Bổ Sung</h4>
+                            <p>Tài khoản của tôi</p>
+                            <p>Danh sách yêu thích</p>
+                            <p>Theo dõi đơn hàng</p>
+                            <p>Điều khoản và điều kiện</p>
+                            <p>Chinh sách bảo mật</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12">
+                        <div class="content-footer">
+                            <h4>Có một câu hỏi ?</h4>
+                            <p><i class="fas fa-clock"></i> Thứ 2 - Thứ 6</p>
+                            <p><i class="fas fa-map-marker"></i> 164 Đại lộ 7, Thăng Long</p>
+                            <p><i class="fas fa-phone"></i> +1.888.292.7171</p>
+                            <p><i class="fas fa-blender-phone"></i> +1.888.292.7272</p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                <a href="">shop@baby.street</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-12">
+                        <div class="content-footer">
+                            <h4><img src="./img/logo_duan1.png" alt="" width="160px" height="50px"></h4>
+                            <p>Chính sách bảo mật</p>
+                            <p>Chính sách thanh toán</p>
+                            <p>Chinh sách tích lũy điểm</p>
+                            <p>Chính sách giao hàng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="click">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+
+</html>
